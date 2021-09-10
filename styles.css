@@ -78,6 +78,7 @@ nav #main-menu li:hover a {
 	padding:0 14px;
 	text-decoration:none;
 	color:#fff;
+	background: #902a2c;
 }
 #main-menu li:hover > a,#main-menu li a:hover{
 	background:#902a2c;
@@ -102,9 +103,17 @@ nav #main-menu li:hover a {
 }
 
 #main-menu label span{font-size:14px;position:absolute;left:35px}
-#main-menu ul.menus{height:auto;overflow:hidden;width:180px;background:#902a2c;position:absolute;z-index:99;display:none;border:0;}
-#main-menu ul.menus li{display:block;width:100%;font:13px;text-transform:none;}
-#main-menu li:hover ul.menus{display:block}
+#main-menu ul.menus{
+	height:auto;
+	overflow:hidden;
+	width:180px;
+	background:#902a2c;
+	position:absolute;z-index:99;
+	display:none;
+	border:0;
+}
+#main-menu ul.menus li{display:block;width:100%;font:13px;text-transform:none;background: #902a2c;}
+#main-menu li:hover ul.menus{display:block;}
 #main-menu a.home {
 	background: #902a2c;
 }
